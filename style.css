@@ -30,5 +30,8 @@ main{
     background-color: #DA6062;
 }
 
-
+header{
+    height: 100px;
+    display: flex;
+}
 
