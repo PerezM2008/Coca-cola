@@ -9,7 +9,7 @@ body{
     height: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: linear-gradient (#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F );
+    background-color:linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
 }
 
 header, footer{
@@ -27,6 +27,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
  .background-logo{
     position: absolute;
@@ -35,8 +36,22 @@ main{
     margin: auto;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
  }
-!--Terminar--
+ .content-text {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    width: 240px;
+    transform: translateX(-100%);
+    text-align: end;
+
+ }
+ .content-image {
+    height: 85vh;
+ }
 
 
 header{
